@@ -1,13 +1,14 @@
+import { INCREMENT, DECREMENT } from "../type";
 export const increment = (number) => {
   return {
-    type: 'INCREMENT',
+    type: INCREMENT,
     payload: number
   }
 }
 
 export const decrement = () => {
   return {
-    type: 'DECREMENT'
+    type: DECREMENT,
   }
 }
 
